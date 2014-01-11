@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS `archivevouchers` (
 --
 
 INSERT INTO `archivevouchers` (`id`, `from_name`, `phoneNumber_1`, `from_email`, `to_name`, `date_purchase`, `price`, `message`, `status`, `payment`, `payment_method`, `UUID`) VALUES
-(662, 'EROL', '0412345678', 'zhangluqi16@gmail.com', 'LI', '2013-06-25', 56, 'hello', 'unredeemed', 'unpaid', 'Cash', '091d039b02ddf4d2fb7f5be76e1c77465d6b4ec7'),
+
 (663, 'DXV', '0425023640', 'reddyishan90@gmail.com', 'ISHAN', '2013-06-26', 56, 'sdfsdf', 'unredeemed', 'unpaid', '  ', 'b66cd90e3946dd63b5a914d5eb2c7eddb46177ec'),
 (664, 'ISHAN', '2132131231', 'bouring@bigpond.com', 'SADSADA', '2013-06-26', 56, 'xf', 'unredeemed', 'unpaid', '  ', '88547be1130859cf095ec35f890a1a53eafa9ac2'),
 (665, 'LUQI', '0412345678', 'zlq916@xnmsn.com', 'AAAA', '2013-06-26', 56, 'happy birthday! happy birthday! happy birthday! happy birthday! happy birthday!', 'unredeemed', 'unpaid', '  ', 'af7166a5d6ddde19c3a7fd202d93ee963ea22132'),
