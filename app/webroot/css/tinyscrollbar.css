@@ -1,0 +1,13 @@
+#section_testimonial { height: 1%; overflow:hidden; padding: 0 0 10px 0; border: solid 0px #EAEAEA; background-color: #F7F7F7; }
+
+
+#section_testimonial .viewport { margin-top: 20px; padding: 0px; padding-bottom: 20px; width: 243px; min-height: 300px; float: left; overflow: hidden; position: relative; border: solid 0px red; }
+
+
+#section_testimonial .disable { visibility: hidden; }
+
+
+#section_testimonial .overview { list-style: none; position: absolute; width: 240px; margin: 0; top: 0; border: solid 0px green; }
+
+
+#section_testimonial .overview li{ font-family: tahoma; font-size: 11px; line-height: 18px; font-style:italic; margin: 0px 10px 0px -13px !important; padding-top: 12px; padding-right: 50px;  min-height: 200px; border: 0px solid #dcdcdc; width: 200px; text-align:justify;}

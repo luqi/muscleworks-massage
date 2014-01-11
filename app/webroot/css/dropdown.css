@@ -1,0 +1,87 @@
+#nav {
+	background:#fd9700 bottom repeat-x;
+	height:4.12em;
+	border-right:0.1em solid #ff7800;
+	position:relative;
+	z-index:5;
+	
+}
+
+#nav li a {
+
+	text-decoration:none;
+	display:block;
+	float:left;
+	background:#fd9700 bottom repeat-x;
+	line-height:1.6em;
+	color:#FFF;
+	font-weight:bold;
+	padding:0.5em 2em;
+	border-right:0.1em solid #FFF;
+
+}
+
+#nav li a:hover {
+	background:#fd9700 bottom repeat-x;
+
+}
+
+#nav li {
+	float:left;
+	font-size:1.6em;
+	border-right:0.1em solid #ff7800;
+	position:relative;
+
+
+}
+
+/* dropdown */
+
+#nav li li {
+	padding:0;
+	margin:0;
+	height:2.5em;
+	line-height:2.5em;
+	float:none;
+	font-size: 0.9em;
+	border:0;
+	text-indent:0.2em;
+	display:inline;
+}
+
+#nav li li a {
+	color:#FFF;
+	display:block;
+	text-align:left;
+	width:15em;
+	border:0;
+	* font-size:0.9em;
+	* width:17.2em;
+	background:transparent;
+	float:none;
+}
+
+#nav li ul {
+	position:absolute;
+	margin-top:2.6em;
+	left:-999em;
+/*	background:#5e7a8f; */
+	background:#cccccc;
+}
+
+#nav li ul li a:hover { 
+	color:#FFF; 
+	background:#fd9700 bottom repeat-x;
+}
+
+#nav li:hover ul, #nav li:hover ul, #nav li.sfhover ul {
+	position:absolute;
+	left:-999em;
+}
+
+#nav li:hover ul, #nav li.sfhover ul {
+	left:0;
+	width:17.1em;
+	padding:0;
+	z-index:1000;
+}

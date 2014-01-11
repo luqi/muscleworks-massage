@@ -1,0 +1,44 @@
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * General page setup
+ */
+
+#demo {
+	margin: 100px 20px 0 auto;
+        position:relative;
+}
+
+.demo_jui {
+	margin: 30px auto 0 auto;
+}
+
+.big {
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: 1.6em;
+	color: #4E6CA3;
+}
+
+.spacer {
+	height: 20px;
+	clear: both;
+}
+
+.clear {
+	clear: both;
+}
+
+ pre {
+	padding: 15px;
+	background-color: #F5F5F5;
+	border: 1px solid #CCCCCC;
+}
+
+#dt_example a {
+	color: #0063DC;
+	text-decoration: none;
+}
+
+#dt_example a:hover {
+	text-decoration: underline;
+}
